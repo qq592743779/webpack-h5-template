@@ -1,0 +1,30 @@
+// 初始化
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+html,body,main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+
+//  通用占位符
+
+//  上下出血
+%vertical{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

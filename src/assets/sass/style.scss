@@ -1,0 +1,19 @@
+@import './init';
+@import '../sprites/sprites';    //  引入精灵图
+
+//  页面样式
+main{
+    position: relative;
+    &>section{
+        height: 1900px;     //  设计稿高度
+        width: 900px;       //  设计稿宽度
+        display: none; 
+        @extend %vertical;
+        &.active{
+            display: block;
+        }
+    }
+}
+body{
+    
+}
