@@ -3,6 +3,7 @@
 const path = require('path')
 
 module.exports = {
+  psWidth: 900,   //  设计稿像素宽
   dev: {
 
     // 路径
