@@ -43,6 +43,9 @@ module.exports = {
             },
             customTemplates: {
                 'scss': path.resolve(__dirname, '../config/spritesmith/scss.template.handlebars')   //  自定义scss模板文件（处理rem问题）
+            },
+            spritesmithOptions: {
+                padding: 4
             }
         })
     ],
