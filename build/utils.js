@@ -24,7 +24,7 @@ exports.cssLoaders = function (options) {
   var px2remLoader = {
     loader: 'px2rem-loader',
     options: { 
-      remUnit: 900/10 //  设计稿宽度/10
+      remUnit: config.psWidth/10 //  设计稿宽度/10
     }
   };
 
