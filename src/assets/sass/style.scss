@@ -6,7 +6,7 @@ main{
     position: relative;
     &>section{
         height: 1900px;     //  设计稿高度
-        width: 900px;       //  设计稿宽度
+        width: 100%;       //  设计稿宽度
         display: none; 
         @extend %vertical;
         &.active{

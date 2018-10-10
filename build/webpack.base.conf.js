@@ -59,21 +59,21 @@ module.exports = {
             loader: 'url-loader',
             options: {
                 limit: 10000,
-                name: utils.assetsPath('img/[name].[hash:7].[ext]')
+                name: utils.assetsPath('img/[name].[ext]')
             }
         },{
             test: /\.(mp4|webm|ogg|mp3|wav|flac|acc)(\?.*)?$/,
             loader: 'url-loader',
             options: {
                 limit: 10000,
-                name: utils.assetsPath('media/[name].[hash:7].[ext]')
+                name: utils.assetsPath('media/[name].[ext]')
             }
         },{
             test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
             loader: 'url-loader',
             options: {
                 limit: 10000,
-                name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
+                name: utils.assetsPath('fonts/[name].[ext]')
             }
         }]
     },
